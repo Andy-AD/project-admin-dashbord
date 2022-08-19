@@ -1,9 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    
     --sidebar: blue;
     --header: aqua;
-    --main: lightgray;
+    --main-content: lightgray;
 }
 
 .container {
@@ -29,10 +30,10 @@
     background-color: var(--header);
 }
 
-.main {
+.main-content {
     grid-column: 2 / -1;
     grid-row: 2 / -1;
 
-    background-color: var(--main);
+    background-color: var(--main-content);
 }
 
