@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 
-    --sidebar: blue;
+    --sidebar: rgb(59, 177, 255);
     --header: white;
     --main-content: lightgray;
     --sidebar-text: white;
@@ -76,7 +76,7 @@
     grid-row: 1 / 2;
 
     background-color: var(--header);
-    padding: 10px 20px;
+    padding: 20px 40px;
 
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -161,6 +161,29 @@
 
 .header .header-buttons {
     grid-area: buttons;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: end;
+}
+
+.header-buttons button {
+    height: 40px;
+    width: 100px;
+    border-radius: calc(0.5 * 40px);
+    background-color: var(--sidebar);
+    color: var(--sidebar-text);
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+.header-buttons button:hover {
+    cursor: pointer;
+    outline: orange solid 3px;
 }
 
 .main-content {
