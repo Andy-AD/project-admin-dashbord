@@ -183,7 +183,9 @@
 
 .header-buttons button:hover {
     cursor: pointer;
-    outline: orange solid 3px;
+    outline: var(--sidebar) solid 3px;
+    background-color: var(--sidebar-text);
+    color: var(--sidebar);
 }
 
 .main-content {
