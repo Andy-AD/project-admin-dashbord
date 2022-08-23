@@ -208,7 +208,7 @@
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 1fr;
+    grid-template-rows: 60px 1fr;
 }
 
 .main-content .projects-container {
@@ -251,7 +251,7 @@
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 40px auto;
+    grid-template-rows: 60px auto;
 }
 
 .main-content .announcements-container {
@@ -272,7 +272,7 @@
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 1fr;
+    grid-template-rows: 60px 1fr;
 }
 
 .main-content .trending-container {
@@ -301,4 +301,8 @@
 .trend img {
     height: 60px;
     width: 60px;
+}
+
+.title {
+    align-self: center;
 }
